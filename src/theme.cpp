@@ -80,10 +80,10 @@ Theme::Theme(NVGcontext *ctx) {
     mTextBoxUpIcon                    = ENTYPO_ICON_CHEVRON_UP;
     mTextBoxDownIcon                  = ENTYPO_ICON_CHEVRON_DOWN;
 
-    mFontNormal = nvgCreateFontMem(ctx, "sans", roboto_regular_ttf,
-                                   roboto_regular_ttf_size, 0);
-    mFontBold = nvgCreateFontMem(ctx, "sans-bold", roboto_bold_ttf,
-                                 roboto_bold_ttf_size, 0);
+    mFontNormal = nvgCreateFontMem(ctx, "sans", nanumgothic_ttf,
+                                   nanumgothic_ttf_size, 0);
+    mFontBold = nvgCreateFontMem(ctx, "sans-bold", nanumgothicbold_ttf,
+                                 nanumgothicbold_ttf_size, 0);
     mFontIcons = nvgCreateFontMem(ctx, "icons", entypo_ttf,
                                   entypo_ttf_size, 0);
     if (mFontNormal == -1 || mFontBold == -1 || mFontIcons == -1)
